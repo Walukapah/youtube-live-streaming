@@ -5,7 +5,7 @@ import { stdin as input, stdout as output } from 'node:process';
 const server = express()
 const rl = readline.createInterface({ input, output });
 
-const streamkey = await rl.question('https://github.com/Walukapah/ytstreamw.git');
+const streamkey = await rl.question('68pg-phuu-b57r-xa31-aja0');
 const video = await rl.question('Send Your filename video ?  ? ( Example : video.mp4 ) ');
 const audio = "https://stream.zeno.fm/ez4m4918n98uv";
 
