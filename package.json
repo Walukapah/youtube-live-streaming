@@ -8,7 +8,7 @@
     "node" : ">=20.0.0"
     },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name live",
+    "start": "pm2 start app.js --deep-monitoring --attach --name live",
     "stop": "pm2 stop live",
     "restart": "pm2 restart live"
   },
